@@ -43,6 +43,7 @@ public class ProjectFile {
 		signOutButton.click();
 		String text=textConfirm.getText();
 		System.out.println(text);
+		System.out.println();
 		Thread.sleep(2000);
 	}
 
