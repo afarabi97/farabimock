@@ -1,6 +1,5 @@
 package AutomationPractice;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,7 +12,7 @@ public class ProjectFile {
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();
 		WebElement element= driver.findElement(By.className("login"));
-		element.click();
+		element.click();///nayeem1
 		
 		WebElement email= driver.findElement(By.id("email"));
 		email.sendKeys("multajim@gmail.com");
